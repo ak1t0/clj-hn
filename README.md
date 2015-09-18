@@ -2,9 +2,15 @@
 
 clj-hn is a Hacker News API wrapper.
 
-## Usage
-
 [![Clojars Project](http://clojars.org/clj-hn/latest-version.svg)](http://clojars.org/clj-hn)
+
+## Installation
+
+Add the following dependency to your `project.clj` file:
+
+    [compojure "1.4.0"]
+
+
 
 ## License
 
