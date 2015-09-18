@@ -1,6 +1,6 @@
 (defproject clj-hn "1.0.0"
   :description "A Hacker News API wrapper"
-  :url "http://githun.com/ak1t0/clj-hn"
+  :url "http://github.com/ak1t0/clj-hn"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]
