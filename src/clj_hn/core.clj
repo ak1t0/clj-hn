@@ -19,13 +19,28 @@
   (str "https://hacker-news.firebaseio.com/v0/item/" x ".json"))
 
 ;; library function
-(defn get-topstory []
+(defn get-topstories []
   (-> "https://hacker-news.firebaseio.com/v0/topstories.json"
       (http/get)
       (take-json)))
 
-(defn get-newstory []
+(defn get-newstories []
   (-> "https://hacker-news.firebaseio.com/v0/newstories.json"
+      (http/get)
+      (take-json)))
+
+(defn get-askstories []
+  (-> "https://hacker-news.firebaseio.com/v0/askstories.json"
+      (http/get)
+      (take-json)))
+
+(defn get-jobstories []
+  (-> "https://hacker-news.firebaseio.com/v0/jobstories.json"
+      (http/get)
+      (take-json)))
+
+(defn get-showstories []
+  (-> "https://hacker-news.firebaseio.com/v0/showstories.json"
       (http/get)
       (take-json)))
 
