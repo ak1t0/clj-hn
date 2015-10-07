@@ -1,6 +1,6 @@
 # clj-hn
 
-clj-hn is a Hacker News API wrapper.
+clj-hn is a HackerNews API wrapper.
 
 [![Clojars Project](http://clojars.org/clj-hn/latest-version.svg)](http://clojars.org/clj-hn)
 
@@ -8,7 +8,7 @@ clj-hn is a Hacker News API wrapper.
 
 Add the following dependency to your `project.clj` file:
 
-    [clj-hn "1.0.2"]
+    [clj-hn "1.0.3"]
 
 ## Usage
 
@@ -17,13 +17,28 @@ user=> (use 'clj-hn.core)
 ```
 ### New and Top Stories
 ```clojure
-(get-topstory)
+(get-topstories)
 => [10237786 10238132 10237977 10237697 10236668 10238062 ...]
 ```
 
 ```clojure
-(get-newstory)
+(get-newstories)
 => [10238661 10238660 10238653 10238651 10238647 10238635 ...]
+```
+### Ask, Show and Job Stories
+```clojure
+(get-askstories)
+=> [10343830 10338771 10344860 10343349 10337231 10342597 ...]
+```
+
+```clojure
+(get-showstories)
+=> [10344464 10344694 10344956 10344858 10344883 10344512 ...]
+```
+
+```clojure
+(get-jobstories)
+=> [10345366 10344719 10344183 10343494 10342589 10341106 ...]
 ```
 ### Item
 ```clojure

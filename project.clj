@@ -1,4 +1,4 @@
-(defproject clj-hn "1.0.2"
+(defproject clj-hn "1.0.3"
   :description "A Hacker News API wrapper"
   :url "https://github.com/ak1t0/clj-hn"
   :license {:name "Eclipse Public License"
