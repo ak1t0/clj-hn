@@ -1,6 +1,6 @@
 # clj-hn
 
-clj-hn is a HackerNews API wrapper.
+clj-hn is a Hacker News API wrapper.
 
 [![Clojars Project](http://clojars.org/clj-hn/latest-version.svg)](http://clojars.org/clj-hn)
 
